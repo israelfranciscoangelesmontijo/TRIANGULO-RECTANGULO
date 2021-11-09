@@ -1,0 +1,19 @@
+/*EJERCICIOS 3 DE NOVIEMBRE DEL 2021
+ISRAEL FRANCISCO ANGELES MONTIJO
+PROGRAMACION EN C*/
+#include <stdio.h>
+#include<math.h>
+main()
+{
+float cateto1,cateto2,hipotenusa,area,perimetro;
+printf("CATETO 1:");
+scanf("%f",&cateto1);
+printf("CATETO 2:");
+scanf("%f",&cateto2);
+hipotenusa=sqrt(cateto1*cateto2)+(cateto2*cateto2);
+area=(cateto1*cateto2)/2.0;
+perimetro=cateto1+cateto2+hipotenusa;
+printf("LA HIPOTENUSA ES:%f",hipotenusa);
+printf("EL AREA ES:%f",area);	
+printf("EL PERIMETRO ES:%f",perimetro);		
+}
